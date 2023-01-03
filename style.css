@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: blue;
+    /* position: relative; */
+}
+
+.container{
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-color: white;
+   margin: auto;
+   position: relative;
+}
+
+#ball{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: red;
+}
+
+#ball2 {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: black;
+}
+
+#ball3 {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: green;
+
+}
+
+#ball4 {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* transform: rotate(190deg) translateX(180px); */
+  background-color: blue;
+
+}
